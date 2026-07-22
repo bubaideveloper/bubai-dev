@@ -1,0 +1,10 @@
+# For a Node/React/Next project:
+node_modules/
+.env
+.env.local
+dist/
+build/
+.output/
+.wrangler/
+.next/
+*.log
