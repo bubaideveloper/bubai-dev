@@ -44,8 +44,8 @@ const EXPERIENCE = [
     company: "Matrix Media Solutions Pvt. Ltd.",
     period: "December 2022 — Present",
     bullets: [
-      "Architected and delivered scalable full-stack applications using React.js, Next.js, Node.js, TypeScript, and Python (FastAPI), serving 10,000+ concurrent users across multi-service marketplace and enterprise platforms with 99.9% uptime.",
-      "Designed real-time booking and order management systems with WebSocket, GraphQL, Redis caching, and AWS services (EC2, S3, SES), reducing API response time by 40% in high-availability production environments.",
+      "Architected and delivered scalable microservices-based full-stack applications using React.js, Next.js, Node.js, TypeScript, and Python (FastAPI), serving 10,000+ concurrent users across multi-service marketplace and enterprise platforms with 99.9% uptime.",
+      "Designed real-time booking and order management systems utilizing an event-driven microservices architecture with WebSocket, GraphQL, Redis caching, RabbitMQ message brokers, and AWS services (EC2, S3, SES), reducing API response time by 40% in high-availability production environments.",
       "Led a team of 5 engineers, conducting 100+ code reviews per quarter, establishing coding standards, and mentoring junior developers through pair programming and technical knowledge-sharing sessions.",
       "Implemented CI/CD pipelines using GitHub Actions and Docker, with PM2 process management and Sentry application performance monitoring & error tracking, reducing deployment time by 65% and ensuring zero-downtime releases through automated testing with Jest and Cypress.",
       "Led integration of 12+ third-party APIs (Razorpay, Firebase FCM, Exotel, WhatsApp Business API), reducing manual workflows by 60% and enabling real-time notifications for 5,000+ daily active users.",
@@ -100,8 +100,8 @@ const PROJECTS = [
   {
     name: "Qkly",
     tag: "Hyperlocal Multi-Service Marketplace",
-    desc: "Hyperlocal on-demand multi-service marketplace connecting customers with verified local service providers for Home Services, Beauty, Food, Travel, and Property. Real-time booking, live tracking, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain + RAG using ChromaDB Embeddings.",
-    stack: ["Node.js", "React.js", "TypeScript", "FastAPI", "MongoDB", "WebSocket", "AWS", "Razorpay", "Google Gemini", "LangChain", "RAG Systems", "Vector Databases"],
+    desc: "Microservices-based hyperlocal on-demand marketplace connecting customers with verified local service providers. Features real-time booking, live tracking, RabbitMQ-driven asynchronous task processing, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain + RAG using ChromaDB Embeddings.",
+    stack: ["Node.js", "React.js", "TypeScript", "FastAPI", "Microservices", "RabbitMQ", "MongoDB", "WebSocket", "AWS", "Razorpay", "Google Gemini", "LangChain", "RAG Systems", "Vector Databases"],
     url: "https://qkly.in",
   },
   {
