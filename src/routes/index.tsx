@@ -54,7 +54,7 @@ const EXPERIENCE = [
     ],
   },
   {
-    role: "Senior Full-Stack Developer",
+    role: "Senior Software Developer",
     company: "Remote Programmer Pvt. Ltd.",
     period: "March 2019 — November 2022",
     bullets: [
@@ -205,11 +205,10 @@ function Header({
             <a
               key={n.id}
               href={`#${n.id}`}
-              className={`rounded-full px-4 py-1.5 text-sm transition-colors ${
-                active === n.id
-                  ? "bg-primary/15 text-primary"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
+              className={`rounded-full px-4 py-1.5 text-sm transition-colors ${active === n.id
+                ? "bg-primary/15 text-primary"
+                : "text-muted-foreground hover:text-foreground"
+                }`}
             >
               {n.label}
             </a>
@@ -412,11 +411,10 @@ function Skills() {
             <button
               key={s.group}
               onClick={() => setActive(s.group)}
-              className={`rounded-lg px-4 py-2.5 text-left text-sm font-medium transition-colors ${
-                active === s.group
-                  ? "bg-primary/15 text-primary"
-                  : "text-muted-foreground hover:bg-muted hover:text-foreground"
-              }`}
+              className={`rounded-lg px-4 py-2.5 text-left text-sm font-medium transition-colors ${active === s.group
+                ? "bg-primary/15 text-primary"
+                : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                }`}
             >
               {s.group}
             </button>
@@ -545,8 +543,8 @@ function Contact() {
             </a>
           </div>
           <div className="mt-8 flex justify-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary">LinkedIn ↗</a>
-            <a href="#" className="hover:text-primary">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/bubaigcect" className="hover:text-primary">LinkedIn ↗</a>
+            {/*<a href="https://github.com/bubaideveloper" className="hover:text-primary">GitHub ↗</a>*/}
             <span>Kolkata, India</span>
           </div>
         </div>
