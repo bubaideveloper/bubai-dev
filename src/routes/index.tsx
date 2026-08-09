@@ -543,7 +543,7 @@ function Contact() {
             </a>
           </div>
           <div className="mt-8 flex justify-center gap-6 text-sm text-muted-foreground">
-            <a href="https://www.linkedin.com/in/bubaigcect" className="hover:text-primary">LinkedIn ↗</a>
+            <a href="https://www.linkedin.com/in/bubaigcect" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn ↗</a>
             {/*<a href="https://github.com/bubaideveloper" className="hover:text-primary">GitHub ↗</a>*/}
             <span>Kolkata, India</span>
           </div>
