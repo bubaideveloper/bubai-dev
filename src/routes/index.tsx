@@ -5,25 +5,25 @@ export const Route = createFileRoute("/")({
   component: Portfolio,
   head: () => ({
     meta: [
-      { title: "Bubai Saha — Senior Full-Stack & Generative AI Developer" },
+      { title: "Bubai Saha — Senior Software & Generative AI Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Bubai Saha — Senior Full-Stack & Generative AI Developer with 10+ years shipping scalable SaaS, marketplaces and LLM-powered products with React, Node.js, TypeScript, Python, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
+          "Portfolio of Bubai Saha — Senior Software & Generative AI Developer with 10+ years shipping scalable SaaS, marketplaces and LLM-powered products with React, Node.js, TypeScript, Python, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
       },
-      { property: "og:title", content: "Bubai Saha — Senior Full-Stack & GenAI Developer" },
+      { property: "og:title", content: "Bubai Saha — Senior Software & GenAI Developer" },
       {
         property: "og:description",
         content:
-          "10+ years building scalable full-stack platforms and Generative AI features with React, Node.js, TypeScript, Python, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
+          "10+ years building scalable software platforms and Generative AI features with React, Node.js, TypeScript, Python, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Bubai Saha — Senior Full-Stack & GenAI Developer" },
+      { name: "twitter:title", content: "Bubai Saha — Senior Software & GenAI Developer" },
       {
         name: "twitter:description",
         content:
-          "Senior Full-Stack & Generative AI Developer — React, Node.js, TypeScript, Python, LangChain, LangGraph, RAG Systems, Vector Databases, MCP.",
+          "Senior Software & Generative AI Developer — React, Node.js, TypeScript, Python, LangChain, LangGraph, RAG Systems, Vector Databases, MCP.",
       },
     ],
   }),
@@ -40,7 +40,7 @@ const NAV = [
 
 const EXPERIENCE = [
   {
-    role: "Senior Full-Stack Developer",
+    role: "Senior Software Developer",
     company: "Matrix Media Solutions Pvt. Ltd.",
     period: "December 2022 — Present",
     bullets: [
@@ -326,7 +326,7 @@ function About() {
       <div className="grid gap-10 lg:grid-cols-[2fr_1fr]">
         <div className="space-y-5 text-lg leading-relaxed text-muted-foreground">
           <p>
-            I'm a results-driven Senior Full-Stack & Generative AI Developer based in Kolkata with
+            I'm a results-driven Senior Software & Generative AI Developer based in Kolkata with
             a decade of experience designing, building and deploying scalable web platforms — from
             hyperlocal marketplaces to regulated betting products, multi-tenant SaaS, and LLM-powered
             features.
@@ -345,7 +345,7 @@ function About() {
           <div className="text-xs font-mono uppercase tracking-widest text-muted-foreground">
             Currently
           </div>
-          <div className="mt-2 text-lg font-medium">Senior Full-Stack Developer</div>
+          <div className="mt-2 text-lg font-medium">Senior Software Developer</div>
           <div className="text-primary">Matrix Media Solutions</div>
           <div className="mt-6 space-y-3 text-sm text-muted-foreground">
             <div className="flex justify-between">
@@ -525,7 +525,7 @@ function Contact() {
             Let's build something <span className="text-gradient">durable</span>.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Open to senior full-stack, GenAI, staff and tech-lead roles — full-time.
+            Open to senior full-stack, senior software developer, GenAI, staff and tech-lead roles — full-time.
             Drop a line and I'll get back within a day.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">

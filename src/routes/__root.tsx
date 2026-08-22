@@ -77,10 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Bubai Saha — Senior Full-Stack Developer" },
+      { title: "Bubai Saha — Senior Software Developer and Generative AI Developer" },
       { name: "description", content: "Portfolio of Bubai Saha — 10+ years building scalable React, Node.js, and Python platforms serving 10,000+ concurrent users." },
       { name: "author", content: "Bubai Saha" },
-      { property: "og:title", content: "Bubai Saha — Senior Full-Stack Developer" },
+      { property: "og:title", content: "Bubai Saha — Senior Software Developer and Generative AI Developer" },
       { property: "og:description", content: "10+ years shipping scalable SaaS and marketplace platforms with React, Node.js, TypeScript & Python." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
