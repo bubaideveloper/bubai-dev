@@ -260,7 +260,7 @@ function Hero() {
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
           <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
         </span>
-        Available for Senior Full-Stack & Senior Software Developer & GenAI roles
+        Available For Senior Full-Stack & Senior Software Developer & GenAI Roles
       </div>
       <h1 className="text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
         Bubai Saha.
