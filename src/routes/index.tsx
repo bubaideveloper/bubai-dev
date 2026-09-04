@@ -49,7 +49,7 @@ const EXPERIENCE = [
       "Led a team of 5 engineers, conducting 100+ code reviews per quarter, establishing coding standards, and mentoring junior developers through pair programming and technical knowledge-sharing sessions.",
       "Implemented CI/CD pipelines using GitHub Actions and Docker, with PM2 process management and Sentry application performance monitoring & error tracking, reducing deployment time by 65% and ensuring zero-downtime releases through automated testing with Jest and Cypress.",
       "Led integration of 12+ third-party APIs (Razorpay, Firebase FCM, Exotel, WhatsApp Business API), reducing manual workflows by 60% and enabling real-time notifications for 5,000+ daily active users.",
-      "Integrated Generative AI capabilities using LLMs (Google Gemini, OpenAI), LangChain/LangGraph orchestration, MCP (Model Context Protocol), and RAG Systems with Vector Databases (Pinecone, ChromaDB) and Embeddings-based Semantic Search to build intelligent features like AI Service Recommendations and AI Customer Support Assistants, driving user engagement and automation.",
+      "Integrated Generative AI capabilities using LLMs (OpenAI), LangChain/LangGraph orchestration, MCP (Model Context Protocol), and RAG Systems with Vector Databases (Pinecone) and Embeddings-based Semantic Search to build intelligent features like AI Service Recommendations and AI Customer Support Assistants, driving user engagement and automation.",
       "Partnered with product managers and UX designers using Agile/Scrum methodologies, JIRA, and Confluence to define technical roadmaps and deliver features across 3 concurrent product streams on schedule.",
     ],
   },
@@ -87,7 +87,7 @@ const SKILLS = [
   { group: "Languages", items: ["JavaScript (ES6+)", "TypeScript", "Python", "PHP", "HTML5", "CSS3"] },
   { group: "Frontend", items: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "jQuery", "SSR/SSG"] },
   { group: "Backend", items: ["Node.js", "Express.js", "NestJS", "GraphQL", "Django", "FastAPI", "Socket.io", "CodeIgniter", "Phalcon"] },
-  { group: "Generative AI", items: ["LLM Integration", "Prompt Engineering", "Google Gemini API", "OpenAI API", "AI Agents", "LangChain", "LangGraph", "RAG Systems", "Embeddings", "Semantic Search", "Vector Databases (Pinecone, ChromaDB)", "MCP (Model Context Protocol)"] },
+  { group: "Generative AI", items: ["LLM Integration", "Prompt Engineering", "OpenAI API", "AI Agents", "LangChain", "LangGraph", "RAG Systems", "Embeddings", "Semantic Search", "Vector Databases (Pinecone)", "MCP (Model Context Protocol)"] },
   { group: "Databases", items: ["PostgreSQL", "MongoDB", "MySQL", "Redis (Caching, Pub/Sub, Queues)", "Sequelize ORM", "Prisma", "Mongoose"] },
   { group: "Architecture", items: ["Microservices", "Event-Driven", "System Design", "Webhooks", "Message Queues", "Data Pipelines", "Pub/Sub"] },
   { group: "Cloud & DevOps", items: ["AWS (EC2, S3, SES, SNS, Lambda, CloudWatch)", "Docker", "CI/CD (GitHub Actions)", "Nginx", "Fly.io", "RabbitMQ", "Linux"] },
@@ -100,8 +100,8 @@ const PROJECTS = [
   {
     name: "Qkly",
     tag: "Hyperlocal Multi-Service Marketplace",
-    desc: "Microservices-based hyperlocal on-demand marketplace connecting customers with verified local service providers. Features real-time booking, live tracking, RabbitMQ-driven asynchronous task processing, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain and LangGraph orchestration, MCP (Model Context Protocol), and RAG pipelines using Pinecone and ChromaDB Embeddings.",
-    stack: ["Node.js", "React.js", "TypeScript", "FastAPI", "Microservices", "RabbitMQ", "MongoDB", "WebSocket", "AWS", "Razorpay", "Google Gemini", "LangChain", "LangGraph", "RAG Systems", "Pinecone", "Vector Databases", "MCP"],
+    desc: "Microservices-based hyperlocal on-demand marketplace connecting customers with verified local service providers. Features real-time booking, live tracking, RabbitMQ-driven asynchronous task processing, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain and LangGraph orchestration, MCP (Model Context Protocol), and RAG pipelines using Pinecone Embeddings.",
+    stack: ["Node.js", "React.js", "TypeScript", "FastAPI", "Microservices", "RabbitMQ", "MongoDB", "WebSocket", "AWS", "Razorpay", "OpenAI", "LangChain", "LangGraph", "RAG Systems", "Pinecone", "Vector Databases", "MCP"],
     url: "https://qkly.in",
   },
   {
