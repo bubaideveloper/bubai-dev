@@ -44,10 +44,10 @@ const EXPERIENCE = [
     company: "Matrix Media Solutions Pvt. Ltd.",
     period: "December 2022 — Present",
     bullets: [
-      "Architected and delivered scalable microservices-based full-stack applications using React.js, Next.js, Node.js, TypeScript, and Python (FastAPI), serving 10,000+ concurrent users across multi-service marketplace and enterprise platforms with 99.9% uptime.",
-      "Designed real-time booking and order management systems utilizing an event-driven microservices architecture with WebSocket, GraphQL, Redis caching, RabbitMQ message brokers, and AWS services (EC2, S3, SES), reducing API response time by 40% in high-availability production environments.",
+      "Architected and delivered scalable microservices and serverless backend applications using Node.js, TypeScript, and AWS Lambda, serving 10,000+ concurrent users across multi-service marketplace and enterprise platforms with 99.9% uptime.",
+      "Designed event-driven systems utilizing API Gateway, SQS, SNS, EventBridge, WebSocket, GraphQL, Redis caching, and RabbitMQ message brokers, reducing API response time by 40% in high-availability production environments.",
       "Led a team of 5 engineers, conducting 100+ code reviews per quarter, establishing coding standards, and mentoring junior developers through pair programming and technical knowledge-sharing sessions.",
-      "Implemented CI/CD pipelines using GitHub Actions and Docker, with PM2 process management and Sentry application performance monitoring & error tracking, reducing deployment time by 65% and ensuring zero-downtime releases through automated testing with Jest and Cypress.",
+      "Implemented CI/CD pipelines using GitHub Actions, Docker, and esbuild bundling with strict TypeScript configuration, establishing structured logging and distributed tracing with CloudWatch and Sentry for end-to-end observability, reducing deployment time by 65%.",
       "Led integration of 12+ third-party APIs (Razorpay, Firebase FCM, Exotel, WhatsApp Business API), reducing manual workflows by 60% and enabling real-time notifications for 5,000+ daily active users.",
       "Integrated Generative AI capabilities using LLMs (OpenAI), LangChain/LangGraph orchestration, MCP (Model Context Protocol), and RAG Systems with Vector Databases (Pinecone) and Embeddings-based Semantic Search to build intelligent features like AI Service Recommendations and AI Customer Support Assistants, driving user engagement and automation.",
       "Partnered with product managers and UX designers using Agile/Scrum methodologies, JIRA, and Confluence to define technical roadmaps and deliver features across 3 concurrent product streams on schedule.",
@@ -88,20 +88,21 @@ const SKILLS = [
   { group: "Frontend", items: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "jQuery", "SSR/SSG"] },
   { group: "Backend", items: ["Node.js", "Express.js", "NestJS", "GraphQL", "Django", "FastAPI", "Socket.io", "CodeIgniter", "Phalcon"] },
   { group: "Generative AI", items: ["LLM Integration", "Prompt Engineering", "OpenAI API", "AI Agents", "LangChain", "LangGraph", "RAG Systems", "Embeddings", "Semantic Search", "Vector Databases (Pinecone)", "MCP (Model Context Protocol)"] },
-  { group: "Databases", items: ["PostgreSQL", "MongoDB", "MySQL", "Redis (Caching, Pub/Sub, Queues)", "Sequelize ORM", "Prisma", "Mongoose"] },
-  { group: "Architecture", items: ["Microservices", "Event-Driven", "System Design", "Webhooks", "Message Queues", "Data Pipelines", "Pub/Sub"] },
-  { group: "Cloud & DevOps", items: ["AWS (EC2, S3, SES, SNS, Lambda, CloudWatch)", "Docker", "CI/CD (GitHub Actions)", "Nginx", "Fly.io", "RabbitMQ", "Linux"] },
+  { group: "Databases", items: ["DynamoDB", "PostgreSQL", "MongoDB", "MySQL", "Redis (Caching, Pub/Sub, Queues)", "Sequelize ORM", "Prisma", "Mongoose"] },
+  { group: "Architecture", items: ["Microservices", "Serverless Architecture", "Event-Driven", "System Design", "API Gateway", "Message Queues (SQS, SNS, EventBridge)", "Pub/Sub"] },
+  { group: "Cloud & DevOps", items: ["AWS (Lambda, API Gateway, SQS, SNS, EventBridge, DynamoDB, S3, CloudWatch, AppSync)", "Docker", "CI/CD (GitHub Actions)", "Infrastructure as Code (AWS CDK, Serverless Framework)", "RabbitMQ", "Nginx", "Linux"] },
   { group: "Testing", items: ["Jest", "Cypress", "React Testing Library", "TDD", "Selenium", "Swagger", "Postman"] },
   { group: "Security", items: ["OAuth2", "JWT", "RBAC", "Data Encryption", "Secure API Design"] },
-  { group: "Monitoring", items: ["PM2", "Sentry", "Application Performance Monitoring", "Error Tracking"] },
+  { group: "Monitoring", items: ["CloudWatch", "Sentry", "Structured Logging", "Distributed Tracing", "PM2", "AWS X-Ray"] },
+  { group: "Build Tools", items: ["esbuild", "Webpack", "Strict TypeScript (tsconfig.json)", "Zod/Joi Schema Validation"] },
 ];
 
 const PROJECTS = [
   {
     name: "Qkly",
     tag: "Hyperlocal Multi-Service Marketplace",
-    desc: "Microservices-based hyperlocal on-demand marketplace connecting customers with verified local service providers. Features real-time booking, live tracking, RabbitMQ-driven asynchronous task processing, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain and LangGraph orchestration, MCP (Model Context Protocol), and RAG pipelines using Pinecone Embeddings.",
-    stack: ["Node.js", "React.js", "TypeScript", "FastAPI", "Microservices", "RabbitMQ", "MongoDB", "WebSocket", "AWS", "Razorpay", "OpenAI", "LangChain", "LangGraph", "RAG Systems", "Pinecone", "Vector Databases", "MCP"],
+    desc: "Microservices & serverless-based hyperlocal on-demand marketplace connecting customers with verified local service providers. Features real-time booking, live tracking, RabbitMQ-driven asynchronous task processing, portals for customers/providers/admins, plus AI service recommendations and an AI support assistant powered by LangChain and LangGraph orchestration, MCP (Model Context Protocol), and RAG pipelines using Pinecone Embeddings.",
+    stack: ["Node.js", "TypeScript", "AWS Lambda", "API Gateway", "SQS", "SNS", "EventBridge", "Microservices", "RabbitMQ", "MongoDB", "DynamoDB", "WebSocket", "AWS CDK", "Razorpay", "OpenAI", "LangChain", "LangGraph", "RAG Systems", "Pinecone", "Vector Databases", "MCP"],
     url: "https://qkly.in",
   },
   {
@@ -115,14 +116,14 @@ const PROJECTS = [
     name: "Wfrlee",
     tag: "Smart Hotel Booking",
     desc: "Hourly hotel booking (3/6/12h) with a unique bidding-based dynamic pricing system, admin-defined slots and a full role-based admin dashboard.",
-    stack: ["Node.js", "Express", "React", "Redux", "TypeScript", "MongoDB", "AWS"],
+    stack: ["Node.js", "Express", "TypeScript", "AWS Lambda", "API Gateway", "MongoDB", "React", "Redux", "REST API"],
     url: "https://www.wfrlee.com",
   },
   {
     name: "Fintura",
     tag: "SaaS for Accounting Firms",
     desc: "Multi-tenant SaaS for client & company management, onboarding and compliance with DATANAMIX verification, tax/VAT tracking and Peach payments.",
-    stack: ["Node.js", "TypeScript", "PostgreSQL", "Sequelize", "Peach", "DATANAMIX", "AWS"],
+    stack: ["Node.js", "Express", "TypeScript", "AWS Lambda", "DynamoDB", "PostgreSQL", "Sequelize", "Peach", "DATANAMIX"],
     url: "https://fintura.co.za",
   },
   {
@@ -260,12 +261,12 @@ function Hero() {
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
           <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
         </span>
-        Available For Senior Full-Stack & Senior Software Developer & GenAI Roles
+        Available For Senior Backend (Serverless), Full-Stack & GenAI Roles
       </div>
       <h1 className="text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
         Bubai Saha.
         <br />
-        <span className="text-gradient">Senior Software & GenAI</span>
+        <span className="text-gradient">Senior Backend & GenAI</span>
         <br />
         engineer shipping at scale.
       </h1>
