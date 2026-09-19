@@ -9,13 +9,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Bubai Saha — Senior Software & Generative AI Developer with 10+ years shipping scalable SaaS, marketplaces and LLM-powered products with React, Node.js, TypeScript, Python, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
+          "Portfolio of Bubai Saha — Senior Software & Generative AI Developer with 10+ years shipping scalable SaaS, marketplaces and LLM-powered products with React, Node.js, TypeScript, Python, PHP, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
       },
       { property: "og:title", content: "Bubai Saha — Senior Software & GenAI Developer" },
       {
         property: "og:description",
         content:
-          "10+ years building scalable software platforms and Generative AI features with React, Node.js, TypeScript, Python, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
+          "10+ years building scalable software platforms and Generative AI features with React, Node.js, TypeScript, Python, PHP, AWS, LangChain, LangGraph, RAG Systems, Vector Databases, MCP (Model Context Protocol).",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
       {
         name: "twitter:description",
         content:
-          "Senior Software & Generative AI Developer — React, Node.js, TypeScript, Python, LangChain, LangGraph, RAG Systems, Vector Databases, MCP.",
+          "Senior Software & Generative AI Developer — React, Node.js, TypeScript, Python, PHP, LangChain, LangGraph, RAG Systems, Vector Databases, MCP.",
       },
     ],
   }),
@@ -273,7 +273,7 @@ function Hero() {
       <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
         10+ years designing SaaS platforms, marketplaces and{" "}
         <span className="text-foreground">LLM-powered products</span> with React, Node.js,
-        TypeScript & Python. Deep in system design, microservices, RAG pipelines and cloud-native
+        TypeScript, Python & PHP. Deep in system design, microservices, RAG pipelines and cloud-native
         delivery on AWS — leading teams and serving 10,000+ concurrent users.
       </p>
       <div className="mt-10 flex flex-wrap items-center gap-3">
