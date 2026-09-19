@@ -69,7 +69,7 @@ const EXPERIENCE = [
     company: "Web Corridor",
     period: "August 2016 — February 2019",
     bullets: [
-      "Developed and maintained 8+ web applications using PHP (CodeIgniter, Laravel, Phalcon), MySQL, jQuery, and Ajax, delivering e-commerce and prediction platforms with payment gateway integrations serving 15,000+ monthly active users.",
+      "Developed and maintained 8+ web applications using PHP (CodeIgniter, Laravel), MySQL, jQuery, and Ajax, delivering e-commerce and prediction platforms with payment gateway integrations serving 15,000+ monthly active users.",
       "Built custom shopping cart systems, subscription workflows, and real-time data feeds using RESTful APIs and third-party service integrations, improving conversion rates by 25%.",
     ],
   },
@@ -86,7 +86,7 @@ const EXPERIENCE = [
 const SKILLS = [
   { group: "Languages", items: ["JavaScript (ES6+)", "TypeScript", "Python", "PHP", "HTML5", "CSS3"] },
   { group: "Frontend", items: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Bootstrap", "jQuery", "SSR/SSG"] },
-  { group: "Backend", items: ["Node.js", "Express.js", "NestJS", "GraphQL", "Django", "FastAPI", "Socket.io", "Laravel", "CodeIgniter", "Phalcon"] },
+  { group: "Backend", items: ["Node.js", "Express.js", "NestJS", "GraphQL", "Django", "FastAPI", "Socket.io", "Laravel", "CodeIgniter"] },
   { group: "Generative AI", items: ["LLM Integration", "Prompt Engineering", "OpenAI API", "AI Agents", "LangChain", "LangGraph", "RAG Systems", "Embeddings", "Semantic Search", "Vector Databases (Pinecone)", "MCP (Model Context Protocol)"] },
   { group: "Databases", items: ["DynamoDB", "PostgreSQL", "MongoDB", "MySQL", "Redis (Caching, Pub/Sub, Queues)", "Sequelize ORM", "Prisma", "Mongoose"] },
   { group: "Architecture", items: ["Microservices", "Serverless Architecture", "Event-Driven", "System Design", "API Gateway", "Message Queues (SQS, SNS, EventBridge)", "Pub/Sub"] },
@@ -109,7 +109,7 @@ const PROJECTS = [
     name: "LottoStar",
     tag: "Online Betting Platform",
     desc: "Regulated South-African betting platform for lotteries, sports, live casino & slots with real-time odds, fixed-odds wagering and KYC/AML compliance in ZAR.",
-    stack: ["Node.js", "React", "PHP", "Laravel", "Phalcon", "Python", "Django", "PostgreSQL", "AWS", "jQuery", "Ajax", "Selenium"],
+    stack: ["Node.js", "React", "PHP", "Laravel", "Python", "Django", "PostgreSQL", "AWS", "jQuery", "Ajax", "Selenium"],
     url: "https://www.lottostar.co.za",
   },
   {
